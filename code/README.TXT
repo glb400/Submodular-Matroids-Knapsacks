@@ -8,6 +8,7 @@ This package includes the Julia code of the SPROUT++ algorithm for Submodular Ma
 
 *************************************************************
 
+
 1. First part includes the following algorithmic files:
 
 helper-funs.jl: The fundamental algorithmic tools for test algorithms, i.e., Greedy, Repeated Greedy, FANTOM, DENSITYSEARCHSGS, SPROUT++.
@@ -23,6 +24,7 @@ fantom.jl: The code of FANTOM is function: fantom(gnd::Array{<:Integer},f_diff,i
 sprout.jl: The code of the binary search part of SPROUT++ is function: main_part_sprout(param_c::Integer,fA_value::AbstractFloat, gnd::Array{<:Integer}, f_diff, ind_add_oracle; num_sol::Integer=0, k::Integer=0, knapsack_constraints::Union{Array{<:AbstractFloat,2}, Nothing}=nothing, extendible::Bool=True, monotone::Bool=false, epsilon::AbstractFloat=0.0, opt_size_ub::Integer=length(gnd), verbose_lvl::Integer=1,mu::AbstractFloat=1.0) in this file. For different problems, we construct the SPROUT++ algorithm by call this function and perform the partial enumeration and other techniques in the corresponding setting files.
 
 SubmodularGreedy.jl: This is a Julia file to export the algorithms.
+
 
 2. Second part includes the following setting files:
 
