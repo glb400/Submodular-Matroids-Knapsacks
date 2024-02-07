@@ -2,7 +2,7 @@
 
 ## General information
 
-This repository contains the official implementation of paper [Submodular Maximization Under the Intersection of Matroid and Knapsack Constraints](https://arxiv.org/abs/2307.09487). It includes experiments of movie recommendation and weighted max cut and corresponding parametric sensitivity analysis. Part of codes use the open-source toolkit from Chris Harshaw's work in https://github.com/crharshaw/SubmodularGreedy.jl.
+This repository contains the implementation of paper [Submodular Maximization Under the Intersection of Matroid and Knapsack Constraints](https://arxiv.org/abs/2307.09487). It includes experiments on the movie recommendation and weighted max-cut applications and corresponding parametric sensitivity analysis. Part of codes use the open-source toolkit from Chris Harshaw's work in https://github.com/crharshaw/SubmodularGreedy.jl.
 
 
 ## Algorithms
